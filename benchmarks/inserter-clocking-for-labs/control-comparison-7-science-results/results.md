@@ -1,7 +1,7 @@
 # Factorio Benchmark Results
 
 **Platform:** windows-x86_64  
-**Factorio Version:** unknown  
+**Factorio Version:** 2.0.55  
 
 ## Scenario
 Lorem ipsum..
@@ -16,9 +16,11 @@ Lorem ipsum..
 
 | Save | Avg (ms) | Min (ms) | Max (ms) | UPS | Execution Time (ms) |
 |------|----------|----------|----------|-----|---------------------|
-| quality_common_bot_speed | 1.519 | 0.878 | 9.435 | 658 | 16397 |
-| quality_uncommon_bot_speed | 1.129 | 0.638 | 8.508 | 886 | 12195 |
-| quality_legendary_bot_speed | 0.859 | 0.553 | 6.289 | **1164** | 9280 |
+| labs_bot_speed_no_clock_stack_16 | 3.611 | 0.916 | 20.511 | 276 | 25997 |
+| labs_bot_speed_lead_follow_stack_16 | 2.548 | 1.086 | 23.343 | 392 | 18350 |
+| labs_bot_speed_clocked_bulk | 2.490 | 0.965 | 26.427 | 401 | 17929 |
+| labs_bot_speed_lead_follow_stack_16_v2 | 2.399 | 1.246 | 20.748 | 416 | 17279 |
+| labs_bot_speed_lead_follow_bulk_v2 | 2.156 | 1.142 | 14.567 | **464** | 15523 |
 
 ![result_0_chart.svg](result_0_chart.svg)
 
@@ -27,9 +29,11 @@ Box and Whisker Plot:
 
 | Save | % Difference from base |
 |------|------------------------|
-| quality_common_bot_speed | 0.00% |
-| quality_uncommon_bot_speed | 34.54% |
-| quality_legendary_bot_speed | 76.83% |
+| labs_bot_speed_no_clock_stack_16 | 0.00% |
+| labs_bot_speed_lead_follow_stack_16 | 41.87% |
+| labs_bot_speed_clocked_bulk | 45.00% |
+| labs_bot_speed_lead_follow_stack_16_v2 | 50.47% |
+| labs_bot_speed_lead_follow_bulk_v2 | 67.73% |
 
 ![result_2_chart.svg](result_2_chart.svg)
 
