@@ -4,7 +4,7 @@
 **Factorio Version:** 2.0.55  
 
 ## Scenario
-Lorem ipsum..
+Varying lab designs (32 * 240/s of each science in each test)
 
 ## Results
 | Metric            | Description                           |
@@ -16,11 +16,8 @@ Lorem ipsum..
 
 | Save | Avg (ms) | Min (ms) | Max (ms) | UPS | Execution Time (ms) |
 |------|----------|----------|----------|-----|---------------------|
-| labs_research_prod_no_clock_stack_16 | 3.315 | 0.880 | 22.111 | 301 | 23864 |
-| labs_research_prod_lead_follow_stack_16_v2 | 3.259 | 1.191 | 12.238 | 306 | 23466 |
-| labs_research_prod_clocked_bulk | 2.765 | 1.051 | 25.734 | 361 | 19905 |
-| labs_research_prod_lead_follow_stack_16 | 2.659 | 1.008 | 30.692 | 376 | 19143 |
-| labs_research_prod_lead_follow_bulk_v2 | 2.611 | 1.100 | 17.894 | **383** | 18800 |
+| quality_q1_research_prod | 1.062 | 0.492 | 13.802 | 943 | 53119 |
+| quality_q2_research_prod | 0.954 | 0.468 | 12.881 | **1051** | 47680 |
 
 ![result_0_chart.svg](result_0_chart.svg)
 
@@ -29,11 +26,8 @@ Box and Whisker Plot:
 
 | Save | % Difference from base |
 |------|------------------------|
-| labs_research_prod_no_clock_stack_16 | 0.00% |
-| labs_research_prod_lead_follow_stack_16_v2 | 1.71% |
-| labs_research_prod_clocked_bulk | 19.89% |
-| labs_research_prod_lead_follow_stack_16 | 24.67% |
-| labs_research_prod_lead_follow_bulk_v2 | 26.99% |
+| quality_q1_research_prod | 0.00% |
+| quality_q2_research_prod | 11.44% |
 
 ![result_2_chart.svg](result_2_chart.svg)
 
