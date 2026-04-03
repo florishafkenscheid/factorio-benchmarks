@@ -102,14 +102,7 @@ You should see a print out like the following:
 
 ## Launching Factorio
 
-Let's set up a dynamic script to run Factorio with mimalloc, and using the allocated huge pages.
-This script will:
-
-1. Read the current amount of hugepages
-2. Set the hugepages
-
-> [!IMPORTANT]
-> Passwordless sudo is recommended, as `hugeadm` required elevated privileges.
+Let's set up a script to run Factorio with mimalloc, and using the allocated huge pages.
 
 ```sh
 #!/usr/bin/env bash
