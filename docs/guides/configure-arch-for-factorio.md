@@ -166,7 +166,9 @@ Categories=Game
 ```
 
 The icon can be any png, but if you want to use the exact icon in the example it is available here:
+
 ![64x64 Factorio logo](images/engineer_q5.png)
+
 Put it under `~/.local/share/icons/hicolor/64x64/apps/engineer_q5.png`.
 
 Having a separate icon is convenient for making it obvious when you are running factorio without mimalloc / huge pages but is completely optional.
